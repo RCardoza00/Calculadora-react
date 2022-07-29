@@ -1,0 +1,33 @@
+.boton-contenedor{
+    height: 120px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+/*hover de los botones*/
+.boton-contenedor:hover{
+  background-color: rgb(83, 80, 84);
+}
+
+.operador{
+  background-color: #feffff;
+  color: black;
+}
+.operador:hover{
+  background-color: rgb(224, 224, 222);
+}
+.igualini{
+  background: linear-gradient(60deg, #ff0300, #ffa100);
+  border-bottom-right-radius: 15px;
+
+}
+.igualini:hover{
+  background: linear-gradient(60deg, #bc1e1b, #ffa100);
+
+}
